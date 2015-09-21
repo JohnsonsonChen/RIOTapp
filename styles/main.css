@@ -1,0 +1,67 @@
+/* Write your additonal styles below */
+.userInput {
+	position: fixed;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input:focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.single_match {
+	display: block;
+	padding: 5px;
+	border: solid 1px #dcdcdc;
+	margin: 10px 0px 5px 0px;
+}
+
+.summoner_name {
+	display: block;
+	padding: 7px;
+	border: solid 1px #dcdcdc;
+	margin: 10px 0px 5px 0px;
+}
+
+.button {
+	display: inline-block;
+	float: right;
+}
+
+.delete_button {
+	display: inline-block;
+	padding: 5px 20px;
+	font-family: Century Gothic;
+	background-color: #FF0000;
+	color: #FFFDFD;
+	cursor: pointer;
+	border: none;
+}
+
+.delete_button:hover {
+	background-color: #B20000;
+}
+
+.toggle_button {
+	display: inline-block;
+	padding: 5px 20px;
+	font-family: Century Gothic;
+	background-color: #666666;
+	color: #FFFDFD;
+	cursor: pointer;
+	border: none;
+	margin-right: 10px;
+}
+
+.toggle_button:hover {
+    background-color: #323232;
+}
