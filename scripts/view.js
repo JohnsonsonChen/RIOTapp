@@ -31,7 +31,7 @@ var ViewModule = (function(MatchModel) {
   	init: function() {
   		var self = this;
   		this.element = document.getElementById('matchHistory');
-      self.appendSummoner('unsignedinteger');
+      /*self.appendSummoner('unsignedinteger');
   		self.riotService.queryMatch(function(result) {
           _.each(result, function(match){
           	var iD = 'unsignedinteger';
@@ -64,7 +64,7 @@ var ViewModule = (function(MatchModel) {
             console.log(matchModel);
           	self.model.addMatchModel(matchModel);
           })  
-  		});
+  		});*/
   	},
 
   	update: function(event) {
